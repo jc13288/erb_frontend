@@ -1,5 +1,9 @@
 import React from 'react';
 import Title from './Title';
+import bird from "../images/bird.jpeg";
+import hedgehog from "../images/hedgehog.jpeg";
+import bull from "../images/bull.jpeg";
+import squirrel from "../images/squirrel.jpeg";
 
 export default function Tours() {
   return (
@@ -9,7 +13,7 @@ export default function Tours() {
             {/* <!--* first tour --> */}
             <article className="tour-card">
                 <div className="tour-img-container">
-                    <img src="./images/bull.jpeg" className="tour-img" alt="tour image1"/>
+                    <img src={bull} className="tour-img" alt="tour image1"/>
                     <p className="tour-date">August 26th, 2024</p>
                 </div>
                 <div className="tour-info">
@@ -27,7 +31,7 @@ export default function Tours() {
             {/* <!--* second tour --> */}
             <article className="tour-card">
                 <div className="tour-img-container">
-                    <img src="./images/bird.jpeg" className="tour-img" alt="tour image2"/>
+                    <img src= {bird} className="tour-img" alt="tour image2"/>
                     <p className="tour-date">September 15th, 2024</p>
                 </div>
                 <div className="tour-info">
@@ -45,7 +49,7 @@ export default function Tours() {
             {/* <!--* third tour --> */}
             <article className="tour-card">
                 <div className="tour-img-container">
-                    <img src="./images/hedgehog.jpeg" className="tour-img" alt="tour image3"/>
+                    <img src={hedgehog} className="tour-img" alt="tour image3"/>
                     <p className="tour-date">Octuber 8th, 2024</p>
                 </div>
                 <div className="tour-info">
@@ -63,7 +67,7 @@ export default function Tours() {
             {/* <!--* fourth tour --> */}
             <article className="tour-card">
                 <div className="tour-img-container">
-                    <img src="./images/squirrel.jpeg" className="tour-img" alt="tour image4"/>
+                    <img src={squirrel} className="tour-img" alt="tour image4"/>
                     <p className="tour-date">Feberary 10th, 2024</p>
                 </div>
                 <div className="tour-info">
